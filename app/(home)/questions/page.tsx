@@ -1,5 +1,3 @@
-"use client";
-
 import type { Metadata } from "next";
 
 export const generateMetadata = (): Metadata => {
@@ -9,6 +7,6 @@ export const generateMetadata = (): Metadata => {
   };
 };
 
-export default function page() {
+export default function QuestionsPage() {
   return <div>This is my questions page</div>;
 }
